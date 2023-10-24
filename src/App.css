@@ -32,7 +32,72 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.matrix {
+  text-align: left;
+  border: 1px solid #ccc;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+}
+
+.warehouse-p {
+  text-align: left;
+  font-weight: bold;
+  color: #87898b;
+}
+
+.warehouse-p-bg {
+  background-color: #fbfbfc;
+}
+
+.warehouse-c {
+  text-align: left;
+  font-weight: normal;
+  padding-left: 60px;
+}
+
+.padding-left30 {
+  padding-left: 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #daf5fa;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 10px 5px;
+  text-align: center;
+  min-width: 120px;
+}
+
+tr:nth-child(even) {
+  /* background-color: #f7f3f3; */
+}
+
+.select-all {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
+
+.success {
+  color: green;
 }
